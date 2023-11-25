@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background: linear-gradient(180deg,rgb(56, 119, 155),rgb(14, 79, 111));
+    color: white;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    font-weight: bold;
+    font-size:12.5px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif";
+}
+.banner-2
+{
+    background: linear-gradient(180deg,  #013970, rgb(99, 208, 245));
+    color: white;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    height: 26.6px;
+    font-family:Arial;
+    font-weight:600;
+}
+.cont-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-box{
+    display: flex;
+    
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+.t-col{
+    margin: 10px 0 0 15.95px;
+}
+.c-1{
+
+    width: 994.46px;
+    border: 1px solid gray;
+}
+.c-2{
+    width: 481.24px;
+    height: 640px;
+    border: 1px solid gray;
+}
+.txt-center{
+   justify-content: center;
+}
+.btn-cont{
+    height: 40px;
+}
+.btn-class{
+    background-color: rgb(56, 128, 187);
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 2px;
+    color: white;
+    width: fit-content ;
+    height:24.4px;
+    font-size:12px ;
+    font-family: Arial;
+    font-weight: 700;
+}
+.box-1{
+    width: 450px;
+}
+.table-class-1 td{
+    padding:2px;
+    font-weight: 300;
+    font-family: Arial;
+    font-size: 12px;
+
+}
+.input-class{
+    width:140px;
+    height: 24.6px;
+    margin:0px;
+    padding: 2px;
+    border-radius:5px;
+    border:1px solid gray;
+
+}
+.description-box{
+    width: 400px;
+}
+.desc span{
+    vertical-align: top;
+}
+.flex-col{
+    flex-direction: column;
+}
+.d-btn{
+    align-self: flex-end;
+    margin-top: 2px
+}
+.tb-1{
+    margin-top: 5px;
+}
+.f-align-start{
+    align-items: center;
+}
+.table-class-2 th{
+    background-color: rgb(56, 128, 187);
+    color: white;
+    border: 1px solid gray;
+    padding: 5px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.table-class-2 td{
+    border: 1px solid gray;
+    padding: 2px 5px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.table-class-2{
+    border-collapse: collapse;
+    width: 100%;
+}
+.c-2-cont{
+    padding: 10px;
+}
+.seq{
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.table-cont-3{
+    height: 100px;
+    width: 100%;
+    padding: 0px 10px;
+}
+.inner-cont{
+    width: 100%;
+    border: 1px solid gray;
+    padding:0px 1.4px 0px 1.4px;
+}
+.inner-cont > div {
+    text-align: center;
+}
+.input-2-box{
+    width:102px;
+    height:24.6px;
+    padding:0px;
+}
+.navbar-nav a {
+    color:#777;
+    text-align: center;
+    font-size: 12.5px; 
+    font-weight: 700;
+    
+}
+.logo
+{
+    width:189px;
+    height:50px
+}
+.text-design{
+    font-size: 12px;
+    font-weight: 100;
+    font-family:Arial;
+
+}
+.btn-1{
+    width:141px;
+    height:23px;
+    background-color: white;
+    color: black;
+    padding:1px;
+    border-color: #777;
+    font-size: 12px;
+    
+}
+.btn-2{
+    width:101px;
+    height:23px;
+    background-color: white;
+    color: black;
+    padding:3px;
+    border-color: #777;
+    font-size: 12px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo-2{
+    height:14.4px;
+    width:12px;
+}
+.input-class-1{
+    width:140px;
+    height: 24.6px;
+    padding: 3px;
+    background-color: #ffd9ff;
+    border-radius:5px;
+    border:1px solid gray;
+}
+/* .margin-after{
+    margin-right:450px;
+} */
+.aline{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin:0px 440px 15px 35px;
+}
+.custom-design{
+    padding:0px;
+    margin:0px;
+}
+.custom-icon{
+    font-size: 18px;
+    color: #7005d0;
+}
+.container-fluid{
+    height:46.4px;
+    padding:10px 10px 10px 6px;
+}
+.banner-box{
+    height:24.4px;
+    width: 32.8px;
+    border: 1px solid gray;
+    padding: 2.4px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.banner-box:hover{
+    color: red;
+    text-decoration: none;
+}
